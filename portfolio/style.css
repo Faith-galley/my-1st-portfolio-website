@@ -1,0 +1,150 @@
+/* Set global font and color styles */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #f9f9f9;
+}
+
+/* styling my 'a' element*/
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0077b5;
+}
+
+.fab {
+  font-size: 40px;
+  margin-right: 50px;
+  position: absolute;
+  top: 30%;
+  right: 0px; /* adjust to your design */
+  transform: translateY(-50%);
+}
+
+
+/* Style header and navigation bar */
+header {
+  background-color:#F6F0EA ;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style main content sections */
+main {
+  background-image:url('port_4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Style contact form */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: narrower;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #F6F0EA;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+.fa-google {
+  color: #333;
+  margin-right: 90px;
+}
+
+.fa-github {
+  color: #333;
+  margin-right: 130px;
+}
+
+
+
+/* Desktop styles */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  margin-left: auto;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+}
